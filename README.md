@@ -1,0 +1,2 @@
+# HolyZaverecneKodovani
+Závěrečné kódování 
