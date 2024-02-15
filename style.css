@@ -7,8 +7,10 @@
 }
 
 body{
-    background-color: black;
+
     font-family: 'CustomFont', sans-serif; 
+
+
 }
 
 .header{
@@ -26,6 +28,9 @@ body{
     font-weight: 700;
     font-size: 45px;
 
+}
+#content{
+    background-color: black;
 }
     
 .footer{
