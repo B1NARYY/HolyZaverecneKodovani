@@ -1,20 +1,39 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('path/to/customfont.woff2') format('woff2'), /* Replace 'path/to/customfont.woff2' with the path to your font file */
-         url('path/to/customfont.woff') format('woff'); /* Add additional font formats if necessary */
+    src: url('https://github.com/B1NARYY/HolyZaverecneKodovani/blob/45164c065d218ec9c6dffd52880c3a7838203928/Standerd-Regular.ttf') format('ttf'), 
+         url('https://github.com/B1NARYY/HolyZaverecneKodovani/blob/45164c065d218ec9c6dffd52880c3a7838203928/Standerd-Regular.ttf') format('ttf'); 
     font-weight: normal;
     font-style: normal;
 }
 
 body{
     background-color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'CustomFont', sans-serif; 
 }
 
 .header{
-    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #20202D;
+    color: white;
+    padding: 5px;
 }
 
 #headerName{
+    color: #e98231;
+    font-weight: 700;
+    font-size: 45px;
 
+}
+    
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #20202D;
+    color: white;
+    padding: 5px;
 }
