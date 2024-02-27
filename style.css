@@ -25,17 +25,34 @@ body {
     padding: 4px;
 }
 
-#headerName{
+.headerName{
     color: #e98231;
     font-weight: 700;
     font-size: 45px;
 
 }
+
+.headerLogin{
+
+}
+
+.headerCreateAccounts{
+
+}
+
+.headerSearch{
+    float: right;
+    color: white;
+    font-size: 25px;
+    background-color:#e98231;
+}
+
+
 .content {
 
 }
 
-#content-image {
+.content-image {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
