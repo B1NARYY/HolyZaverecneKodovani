@@ -14,20 +14,18 @@ body {
 
 .header{
     width: 100%;
-    height: 20vh;
+    height: 16vh;
     background-color: #20202D;
     color: white;
     display: flex;
 }
 
 .nav{
-    margin-right: 30%;
-    position: relative;
-    display: block;
-    width: auto;
+    margin-left: 50%;
     flex-direction: row;
     gap: 20px;
 }
+
 .nav .links {
     margin-top: 45px;
     text-decoration: none;
@@ -35,9 +33,9 @@ body {
     font-size: 40px;
 }
 .links{
-    margin-left: 10px;
+    margin-right: 20px;
 }
-button{
+.button{
     background-color:#e98231;
     border-radius: 20px;
     height: 70px;
@@ -51,33 +49,25 @@ button{
     color: #e98231;
     font-weight: 700;
     font-size: 45px;
+    padding-left: 10px;
 }
-
-.headerSearch{
-    float: right;
-    color: white;
-    font-size: 25px;
-    background-color:#e98231;
-}
-
 
 .content-image {
     width: 100%;
     height: auto;
 
-}
-/*
-.boxes {
 
+}
+
+.boxes {
     margin-left: 20vw; 
-    margin-top: 75vw;
+    margin-top: 10vh;
     z-index: 1;
     position: relative;
     
 }
 
 .box   {
-    
     width: 300px;
     background-color: #20202D;
     text-align: center;
@@ -86,7 +76,6 @@ button{
     margin-bottom: 30px;
     border-radius: 20px;
     font-size: 30px;
-    
   }
 
   
@@ -99,13 +88,27 @@ button{
     width: 100%;
     
   }
-  */
+  #loginBox{
+    background-color: #20202D;
+    margin: 10%;
 
+    border: 3px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+
+  }
+  #submitLogin{
+
+  }
+  
   .contentAboutUs{  
     position: relative;
     background-color: #20202D;
     margin: 15%;
-    margin-top: 200px;
+    margin-top: 10vh;
     padding: 20px; 
     overflow: auto; 
     border-radius: 50px; 
@@ -127,7 +130,7 @@ button{
         top: 30x;
     }
     .contentAboutUs{
-        margin-bottom: 80px;
+        margin-bottom: 10vh;
     }
     .header{
         height: auto;
@@ -142,6 +145,12 @@ button{
         justify-content: center;
         align-items: center;
         margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .headerName{
+        padding-left: 0px;
     }
 }
 
