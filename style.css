@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-.header{
+.header {
     width: 100%;
     height: 16vh;
     background-color: #20202D;
@@ -20,7 +20,7 @@ body {
     display: flex;
 }
 
-.nav{
+.nav {
     margin-left: 50%;
     flex-direction: row;
     gap: 20px;
@@ -32,20 +32,20 @@ body {
     color: white;
     font-size: 40px;
 }
-.links{
+
+.links {
     margin-right: 20px;
 }
-.button{
-    background-color:#e98231;
+
+.button {
+    background-color: #e98231;
     border-radius: 20px;
-    height: 70px;
-    width: 170px;
     margin-top: 35px;
     color: white;
     font-size: 30px;
 }
 
-.headerName{
+.headerName {
     color: #e98231;
     font-weight: 700;
     font-size: 45px;
@@ -60,14 +60,14 @@ body {
 }
 
 .boxes {
-    margin-left: 20vw; 
+    margin-left: 20vw;
     margin-top: 10vh;
     z-index: 1;
     position: relative;
-    
+
 }
 
-.box   {
+.box {
     width: 300px;
     background-color: #20202D;
     text-align: center;
@@ -76,70 +76,118 @@ body {
     margin-bottom: 30px;
     border-radius: 20px;
     font-size: 30px;
-  }
+}
 
-  
-  .box a {
-    
+
+.box a {
     text-decoration: none;
-    color:  #e98231;
+    color: #e98231;
     display: block;
     height: 100%;
     width: 100%;
-    
-  }
-  #loginBox{
-    background-color: #20202D;
-    margin: 10%;
 
-    border: 3px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 20px;
-    width: 500px;
+}
+
+#loginBox {
+    display: block;
+    background-color: #20202D;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20vh;
+    width: 30vw;
+    padding: 1%;
+    align-items: center;
     text-align: center;
 
-  }
-  #submitLogin{
+}
 
-  }
-  
-  .contentAboutUs{  
+#loginName {
+    color: white;
+    font-size: 45px;
+    margin: 5px;
+}
+
+#username,
+#password {
+    width: 100%;
+    color: #000;
+    background-color: #e98231;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: black;
+}
+
+#checkbox{
+    float: left;
+}
+
+label {
+    color: white;
+    float: left;
+}
+
+#forgot {
+    color: rgb(62, 62, 224);
+    text-decoration: none;
+    float: right;
+}
+
+#submitLogin {
+    margin-top: 0px;
+    color: #000;
+    background-color: #e98231;
+    margin-top: 20px;
+    font-size: 25px;
+    border: none;
+    width: 200px;
+
+}
+
+.contentAboutUs {
     position: relative;
     background-color: #20202D;
     margin: 15%;
     margin-top: 10vh;
-    padding: 20px; 
-    overflow: auto; 
-    border-radius: 50px; 
-  }
+    padding: 20px;
+    overflow: auto;
+    border-radius: 50px;
+}
 
-  #boxAboutUs{
+#boxAboutUs {
     margin-top: -45px;
     font-size: 20px;
     line-height: 1.5;
-    color: white; 
-  }
+    color: white;
+}
 
-  #contentHeader {
-    text-align: center; 
+#contentHeader {
+    text-align: center;
     font-size: 45px;
 }
+
 @media (max-width: 768px) {
     .box-container {
         top: 30x;
     }
-    .contentAboutUs{
+
+    .contentAboutUs {
         margin-bottom: 10vh;
     }
-    .header{
+
+    .header {
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .nav{
+
+    .nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -149,13 +197,13 @@ body {
 
     }
 
-    .headerName{
+    .headerName {
         padding-left: 0px;
     }
 }
 
 
-.footer{
+.footer {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -166,4 +214,3 @@ body {
     justify-content: space-around;
     font-size: 20px;
 }
-
