@@ -1,40 +1,41 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('https://github.com/B1NARYY/HolyZaverecneKodovani/blob/45164c065d218ec9c6dffd52880c3a7838203928/Standerd-Regular.ttf') format('ttf'), 
-         url('https://github.com/B1NARYY/HolyZaverecneKodovani/blob/45164c065d218ec9c6dffd52880c3a7838203928/Standerd-Regular.ttf') format('ttf'); 
+    src: url('/images_fonts/Standerd-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
     font-family: 'CustomFont', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* 100% of viewport height */
-    overflow: hidden; 
     background-color: #e98231;
+    padding: 0;
+    margin: 0;
 }
+
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
+    height: 20vh;
     background-color: #20202D;
     color: white;
-    padding: 4px;
     display: flex;
-    padding:40px 20px;
 }
+
 .nav{
-    margin-left: 50%;
-    display: flex;
+    margin-right: 30%;
+    position: relative;
+    display: block;
+    width: auto;
     flex-direction: row;
     gap: 20px;
 }
-.nav p {
+.nav .links {
     margin-top: 45px;
+    text-decoration: none;
+    color: white;
     font-size: 40px;
+}
+.links{
+    margin-left: 10px;
 }
 button{
     background-color:#e98231;
@@ -61,20 +62,22 @@ button{
 
 
 .content-image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-}
+    width: 100%;
+    height: auto;
 
+}
+/*
 .boxes {
-    margin-top: -1200px; /* IDK HELP */
-    margin-left: 20vw; /* Adjust this value to your preference */
+
+    margin-left: 20vw; 
+    margin-top: 75vw;
     z-index: 1;
     position: relative;
+    
 }
 
 .box   {
+    
     width: 300px;
     background-color: #20202D;
     text-align: center;
@@ -83,24 +86,26 @@ button{
     margin-bottom: 30px;
     border-radius: 20px;
     font-size: 30px;
+    
   }
 
   
   .box a {
+    
     text-decoration: none;
     color:  #e98231;
     display: block;
     height: 100%;
     width: 100%;
+    
   }
+  */
 
   .contentAboutUs{  
-    position: fixed;
-    top: 22vh;
-    left: 15vw;
-    right: 15vw;
-    bottom: 13vw;
+    position: relative;
     background-color: #20202D;
+    margin: 15%;
+    margin-top: 200px;
     padding: 20px; 
     overflow: auto; 
     border-radius: 50px; 
@@ -119,9 +124,27 @@ button{
 }
 @media (max-width: 768px) {
     .box-container {
-        top: 30x; /* Adjust top margin for phones */
+        top: 30x;
+    }
+    .contentAboutUs{
+        margin-bottom: 80px;
+    }
+    .header{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
     }
 }
+
 
 .footer{
     position: fixed;
